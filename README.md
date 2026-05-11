@@ -47,7 +47,7 @@ REAL_UPSTREAM_MODEL=gpt-4o-mini
 ### 启动
 
 ```bash
-go run ./cmd/ai-api-stronger -config ./config.yaml -env ./.env.local
+go run ./cmd -config ./config.yaml -env ./.env.local
 ```
 
 或使用辅助脚本：
